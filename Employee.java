@@ -22,5 +22,9 @@ class Employee {
         employee.displayEmployeeDetails();
 
         System.out.println();
+
+        DevOpsEngineer devOpsEngineer = new DevOpsEngineer("Alice Smith", 2002, 60000, 5000);
+        System.out.println("DevOps Engineer Details:");
+        devOpsEngineer.displayEmployeeDetails();
     }
 }
